@@ -33,7 +33,7 @@ async loginWrongCredentials() {
         await this.errorMessage.waitFor()
 }
 
-    async loginNoCredentials() {
+async loginNoCredentials() {
         
         await this.loginButton.click()
 

@@ -5,7 +5,9 @@ import { DashboardPage } from '../pages/dashboardPage.js'
 
 
 test.beforeEach(async ({page}) => {
-    await page.goto('/')
+          
+          await page.goto('/')
+
 })
 
 test.describe('Login ', () => {
